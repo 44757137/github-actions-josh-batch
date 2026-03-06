@@ -1,7 +1,8 @@
-Name: CiCd
-On:
-  workflow_dispatch: 
-Jobs:
+---
+name: CiCd
+on:
+  workflow_dispatch: null
+jobs:
   code:
     runs-on: ubuntu-latest
     steps:
