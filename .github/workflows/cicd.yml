@@ -4,7 +4,7 @@ on:
     inputs:
       environments:
         description:
-        default: dev
+        default: 'dev'
         required: true
         type: choice
         options:
